@@ -16,6 +16,30 @@ public class LeetCodeTest {
     }
 
     /**
+     * 合并两个有序数组
+     * @param nums1
+     * @param m
+     * @param nums2
+     * @param n
+     */
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        if (n == 0){
+            return;
+        }
+        if (m == 0){
+            nums1 = nums2;
+            return;
+        }
+        //定义一个指针
+        int index = 0;
+        for (int i = 0; i < m+n; i++) {
+            if(nums1[0] > nums2[0]){
+
+            }
+        }
+    }
+
+    /**
      * 删除排序链表中的重复元素
      */
     public ListNode deleteDuplicates(ListNode head) {
